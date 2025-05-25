@@ -44,10 +44,12 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "A pragmatic Frontend Developer",
-  "I build things for the web",
-  "I create aesthetic and modern apps",
+  "Passionate about applied AI 🤖",
+  "Incoming intern at AWS and Tesla 🚀",
+  "Exploring tech opportunities ahead 💼",
 ];
+
+
 
 export const SOCIAL_LINKS = [
   {
@@ -77,200 +79,248 @@ export const SKILLS = {
     "html",
     "css",
     "javascript",
-    "typescript",
-    "sass",
+    "C++",
+    "python",
+    "Go",
     "nodejs",
-    "webpack",
-    "vite",
-    "firebase",
+    "docker",
+    "sql",
+    "git",
     "figma",
-    "tanstack-query",
+    "vscode",
+  
+    
   ],
   librariesAndFrameworks: [
     "react",
-    "redux",
+    "django",
     "nextjs",
-    "tailwindcss",
-    "styledcomponents",
-    "antdesign",
-    "chakra-ui",
+    "pytorch",
+    "scikitlearn",
+    "bootstrap",
+    "materialui",
   ],
-  databases: ["mysql", "mongodb"],
-  other: ["git", "sanity-io"],
+  databases: ["mysql", "postgresql"],
+  other: ["git", "jira", "confluence", "aws", "azure"],
 };
 
 export const PROJECTS = [
   {
-    name: "Airbnb",
-    image: "/projects/airbnb.webp",
+    name: "Tutorium",
+    image: "/projects/tutorium.webp",
     blurImage: "/projects/blur/airbnb-blur.webp",
-    description: "Airbnb UI clone using NextJS + Tailwind CSS 🛏️",
+    description: "Tutor directory app using React + Django + AWS ☁️",
     gradient: ["#F14658", "#DC2537"],
-    url: "https://shubh73-airbnb.vercel.app/",
-    tech: ["react", "nextjs", "tailwindcss", "mapbox"],
+    url: "https://tutrio.org",
+    tech: ["react", "django", "aws", "materialui","postgresql"],
   },
   {
-    name: "Medium",
-    image: "/projects/medium.webp",
+    name: "Energy Theft Detection",
+    image: "/projects/nsf.webp",
     blurImage: "/projects/blur/medium-blur.webp",
-    description: "Medium UI clone using NextJS + Tailwind CSS ✍🏻",
+    description: "Federated learning defense system for energy theft detection ⚡",
     gradient: ["#FFA62E", "#EA4D2C"],
-    url: "https://shubh73-medium.vercel.app/",
-    tech: ["typescript", "react", "nextjs", "tailwindcss", "sanity.io"],
+    url: "https://drive.google.com/file/d/1KzCu_tcpMEPy-Qkd4xRzu6nL1w5MJLY5/view?usp=sharing",
+    tech: ["python", "pytorch", "numpy", "matplotlib", "pandas"],
   },
   {
-    name: "Inshorts",
-    image: "/projects/inshorts.webp",
+    name: "Amazon Web Service",
+    image: "/projects/aws-logo.webp",
     blurImage: "/projects/blur/airbnb-blur.webp",
     description:
-      "Conversational Voice Controlled React News Application using Alan AI 🎙",
+      "Summer 2025 (AWS SageMaker) — Coming Soon",
     gradient: ["#000066", "#6699FF"],
-    url: "https://shubh73-inshorts.netlify.app/",
-    tech: ["react", "chakra-ui", "alan"],
+    // url: "https://shubh73-inshorts.netlify.app/",
+    tech: ["python", "git", "aws"],
   },
   {
     name: "Tesla",
     image: "/projects/tesla.webp",
     blurImage: "/projects/blur/tesla-blur.webp",
-    description: "A Tesla React Native App 🏎️",
+    description: "Fall 2025 (Service Engineering) — Coming Soon",
     gradient: ["#142D46", "#2E4964"],
-    url: "https://github.com/shubh73/tesla",
-    tech: ["react"],
+    // url: "https://github.com/shubh73/tesla",
+    tech: ["html","jira", "confluence", "git"],
   },
 ];
 
-// export const WORK = [
-//   {
-//     id: 1,
-//     company: "Dukaan",
-//     title: "Frontend Developer",
-//     location: "Bangalore, Karnataka",
-//     range: "December - Current",
-//     responsibilities: [
-//       "Led creation of a captivating cross-platform e-commerce solution.",
-//       "Enhanced UX with gamification and personalized push notifications ensuring an ever-improving shopping journey.",
-//       "The app boasts a DAU base of 32k and an extensive MAU count of 180k.",
-//     ],
-//     url: "https://mydukaan.io/",
-//     video: "/work/dukaan.mp4",
-//   },
-//   {
-//     id: 2,
-//     company: "Aviate",
-//     title: "Frontend Developer Intern",
-//     location: "Goa",
-//     range: "May - October 2022",
-//     responsibilities: [
-//       "Built their flagship product Q-Rate, a voice-based applicant screening platform.",
-//       "Developed pixel-perfect responsive web applications achieving daily traffic of 1000-2000 users.",
-//       "Successfully rolled out an error-logging and bug reporting system that cut user-reported bugs by 30%.",
-//     ],
-//     url: "https://www.aviate.jobs/",
-//     video: "/work/aviate.mp4",
-//   },
-//   {
-//     id: 3,
-//     company: "Spacenos",
-//     title: "Web Developer Intern",
-//     location: "Bangalore, Karnataka",
-//     range: "September - December 2021",
-//     responsibilities: [
-//       "Led the Full Stack revamp on the Admin Portal.",
-//       "Developed app integration with REST APIs, Google Maps, User Auth, Stripe and other libraries.",
-//       "Implemented CRUD features for all the services and providers.",
-//     ],
-//     url: "https://spacenos.com/",
-//     video: "/work/spacenos.mp4",
-//   },
-// ];
 
 export const WORK_CONTENTS = {
+  // DUKAAN: [
+  //   {
+  //     title: "National Science Foundation",
+  //     description:
+  //       "Dukaan is a platform that enables businesses to launch their online stores at ease.",
+  //     content: (
+  //       <div className="h-full w-full flex items-center justify-center text-white px-4">
+  //         Revolutionizing commerce, one click at a time
+  //       </div>
+  //     ),
+  //   },
+  //   {
+  //     title: "Transformation",
+  //     description:
+  //       "Since 2023, the Dukaan Seller Dashboard struggled with technical issues and a broken user experience due to accumulated technical debt. Leading a team of two junior developers, we migrated the dashboard from CSR to SSR, redesigned the UI, and overhauled the codebase in the process. This resolved the technical debt and vastly improved the user experience, making it Dukaan's largest and most impactful migration.",
+  //     content: (
+  //       <div className="h-full w-full flex items-center justify-center text-white px-4">
+  //         Senior Frontend Engineer
+  //       </div>
+  //     ),
+  //   },
+  //   {
+  //     title: "Evolution",
+  //     description:
+  //       "Recognizing the need for improved performance and user engagement, I spearheaded the migration of the Dukaan App from native to React-Native for iOS and Android platforms. This strategic move led to a X% enhancement in app performance and a Y% boost in user engagement, representing a significant milestone in the app's evolution.",
+  //     content: (
+  //       <div className="h-full w-full flex items-center justify-center text-white px-4">
+  //         Frontend Engineer
+  //       </div>
+  //     ),
+  //   },
+  //   {
+  //     title: "Optimization",
+  //     description:
+  //       "Leveraging user feedback and analytics, I improved the seller web dashboard design, reducing bounce rates. Simultaneously, I overhauled the build process, slashing bundle size and boosting overall performance.",
+  //     content: (
+  //       <div className="h-full w-full flex items-center justify-center text-white px-4">
+  //         Frontend Engineer Intern
+  //       </div>
+  //     ),
+  //   },
+  // ],
   DUKAAN: [
     {
-      title: "Dukaan",
+      title: "National Science Foundation",
       description:
-        "Dukaan is a platform that enables businesses to launch their online stores at ease.",
+        "NSF REU program focused on secure federated learning and energy theft detection using smart meter datasets.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Revolutionizing commerce, one click at a time
+          Advancing AI for secure energy systems ⚡
         </div>
       ),
     },
     {
-      title: "Transformation",
+      title: "Defense Strategy",
       description:
-        "Since 2023, the Dukaan Seller Dashboard struggled with technical issues and a broken user experience due to accumulated technical debt. Leading a team of two junior developers, we migrated the dashboard from CSR to SSR, redesigned the UI, and overhauled the codebase in the process. This resolved the technical debt and vastly improved the user experience, making it Dukaan's largest and most impactful migration.",
+        "Designed and evaluated cosine similarity defenses to reduce the impact of poisoning attacks in federated multi-label classifiers.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Senior Frontend Engineer
+          ML Security Intern
         </div>
       ),
     },
     {
-      title: "Evolution",
+      title: "Research Impact",
       description:
-        "Recognizing the need for improved performance and user engagement, I spearheaded the migration of the Dukaan App from native to React-Native for iOS and Android platforms. This strategic move led to a X% enhancement in app performance and a Y% boost in user engagement, representing a significant milestone in the app's evolution.",
+        "Reduced attack success rate by 47% using privacy-preserving model comparison. Presented findings at a university-level research conference.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Engineer
+          Undergraduate Researcher
         </div>
       ),
     },
     {
-      title: "Optimization",
+      title: "Collaboration",
       description:
-        "Leveraging user feedback and analytics, I improved the seller web dashboard design, reducing bounce rates. Simultaneously, I overhauled the build process, slashing bundle size and boosting overall performance.",
+        "Worked with PhDs and grad students to apply deep learning (TCN) to real-world smart grid data in a secure, decentralized setup.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Engineer Intern
+          REU Participant
         </div>
       ),
     },
   ],
+  
+  // AVIATE: [
+  //   {
+  //     title: "Amazon Web Services",
+  //     description:
+  //       "Aviate is a preparation and mentorship platform for job-seekers that are seeking non-technical roles across top companies",
+  //     content: (
+  //       <div className="h-full w-full flex items-center justify-center text-white px-4">
+  //         Finding the right job isn&apos;t fate, it&apos;s navigation
+  //       </div>
+  //     ),
+  //   },
+  //   {
+  //     title: "Innovation",
+  //     description:
+  //       "I spearheaded the development of Q-Rate, their flagship product, a voice-based applicant screening platform. Moreover, I took initiatives to enhance user engagement and drive substantial increases in daily traffic. Additionally, I implemented an error-logging and bug reporting system, significantly diminishing user-reported bugs.",
+  //     content: (
+  //       <div className="h-full w-full flex items-center justify-center text-white px-4">
+  //         Frontend Developer Intern
+  //       </div>
+  //     ),
+  //   },
+  // ],
   AVIATE: [
     {
-      title: "Aviate",
+      title: "Amazon Web Services",
       description:
-        "Aviate is a preparation and mentorship platform for job-seekers that are seeking non-technical roles across top companies",
+        "Incoming Technical Writing Intern on the SageMaker team, focused on improving developer-facing documentation for AI and ML tools.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Finding the right job isn&apos;t fate, it&apos;s navigation
+          Empowering builders through clear documentation ⚙️
         </div>
       ),
     },
     {
-      title: "Innovation",
+      title: "Inference Focus",
       description:
-        "I spearheaded the development of Q-Rate, their flagship product, a voice-based applicant screening platform. Moreover, I took initiatives to enhance user engagement and drive substantial increases in daily traffic. Additionally, I implemented an error-logging and bug reporting system, significantly diminishing user-reported bugs.",
+        "Expected to contribute to documentation for SageMaker Inference endpoints, helping developers deploy and scale ML models efficiently.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Developer Intern
+          Technical Writing Intern
         </div>
       ),
     },
   ],
+  
+  // SPACENOS: [
+  //   {
+  //     title: "Spacenos",
+  //     description:
+  //       "A dynamic startup dedicated to creating innovative products that make the world a better place.",
+  //     content: (
+  //       <div className="h-full w-full flex items-center justify-center text-white px-4">
+  //         We build apps that solve problems for the next billion people
+  //       </div>
+  //     ),
+  //   },
+  //   {
+  //     title: "Trailblazing",
+  //     description:
+  //       "I led the comprehensive overhaul of the Admin Portal, implementing CRUD features for all services and providers. Additionally, I architected a feature enabling precise customer location tracking and delivering insightful usage statistics. Through optimized and compressed file serving, I catalyzed a remarkable Yx increase in page speed, resulting in a X% boost in customer retention.",
+  //     content: (
+  //       <div className="h-full w-full flex items-center justify-center text-white px-4">
+  //         Web Developer Intern
+  //       </div>
+  //     ),
+  //   },
+  // ],
   SPACENOS: [
     {
-      title: "Spacenos",
+      title: "Tesla",
       description:
-        "A dynamic startup dedicated to creating innovative products that make the world a better place.",
+        "Incoming Technical Editor Intern on the Service Engineering team, supporting diagnostic procedures and service documentation.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          We build apps that solve problems for the next billion people
+          Innovating clarity for complex systems ⚡
         </div>
       ),
     },
     {
-      title: "Trailblazing",
+      title: "Service Impact",
       description:
-        "I led the comprehensive overhaul of the Admin Portal, implementing CRUD features for all services and providers. Additionally, I architected a feature enabling precise customer location tracking and delivering insightful usage statistics. Through optimized and compressed file serving, I catalyzed a remarkable Yx increase in page speed, resulting in a X% boost in customer retention.",
+        "Will contribute to internal tooling and write procedures used by technicians, improving communication between engineering and service teams.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Web Developer Intern
+          Technical Editor Intern
         </div>
       ),
     },
   ],
+  
 };
 
 export const GTAG = "G-5HCTL2TJ5W";

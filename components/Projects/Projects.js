@@ -99,8 +99,7 @@ const Projects = ({ isDesktop, clientHeight }) => {
             My Projects
           </h1>
           <h2 className="text-[1.65rem] font-medium md:max-w-lg max-w-sm mt-2 staggered-reveal">
-            Some things I&apos;ve built with love, expertise and a pinch of
-            magical ingredients.{" "}
+            Projects I&apos;ve to explore, learn, and deliver real impact.{" "}
           </h2>
         </div>
         <div

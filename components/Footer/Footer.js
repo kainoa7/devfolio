@@ -49,11 +49,11 @@ const Footer = () => {
               </Button>
             </div>
             <p className="text-center text-white text-sm sm:text-base font-medium tracking-wide mt-8">
-              Developed with{" "}
+              Developed by{" "}
               <button onClick={handleClick} className="link cursor-none">
-                <span className="block animate-bounce">❤️</span>
+                {/* <span className="block animate-bounce">❤️</span> */}
               </button>{" "}
-              by <span className="text-white">Shubh Porwal</span>
+              <span className="text-white">Kainoa Aqui</span>
             </p>
           </div>
         </div>
