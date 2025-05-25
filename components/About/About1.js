@@ -56,7 +56,7 @@ const About1 = ({ clientHeight }) => {
           className="font-medium text-[2.70rem] md:text-6xl lg:text-[4rem] text-center"
         >
           <span className="about-1 leading-tight">
-  I'm an incoming AWS and Tesla intern passionate about real-world impact through tech.{" "}
+          I&apos;m an incoming AWS and Tesla intern passionate about real-world impact through tech.{" "}
 </span>
 <span className="about-2 leading-tight">
   I focus on creating reliable, scalable solutions that are both powerful and human-centered.{" "}
